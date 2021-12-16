@@ -256,6 +256,16 @@ a:hover {
     color: rgba(0, 0, 0, 1);
 }
 
+.l-bloc .navbar-brand{
+  border: 1px solid white;
+  border-radius: 25px;
+}
+
+.l-bloc .navbar-brand:hover, .l-bloc .navbar-brand:focus{
+  border: 1px solid #CB4B10;
+  border-radius: 25px;
+}
+
 .l-bloc .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, .6);
 }
@@ -842,7 +852,7 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.btn-atomic-tangerine:hover {
+.btn-atomic-tangerine:hover, .btn-atomic-tangerine:focus {
     background: #415695!important;
     color: #FFFFFF!important;
 }
